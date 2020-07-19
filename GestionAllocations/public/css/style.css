@@ -1,0 +1,122 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+   
+}
+
+.container-header{
+    height: 110px;
+    width: 100%;
+    margin: 0;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container-body-menu{
+    height: 890px;
+    background: url("../../public/img/univ.JPEG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-link{
+    font-size:25px;
+ 
+}
+
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.container-chamb{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+}
+
+.chamb-header{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    background-color: cyan;
+    border: 1px solid cyan;
+    border-radius: 10px;
+}
+
+.chamb-body{
+    height: 240px;
+    width: 100%;
+    margin: 0;
+    padding:20px;
+    background-color: wheat;
+}
+
+.container-inscrip{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    background-color: wheat;
+    width: 50%;
+    height: 550px;
+    margin: auto;
+   border-radius: 10px;
+
+}
+
+.header-inscrip{
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    background-color: cyan;
+    border: 1px solid cyan;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.container-body-inscrip{
+    margin-top:0;
+ 
+    height:500px;
+    padding: 30px;
+}
+
+.container-GE{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    background-color: wheat;
+    width: 90%;
+    height: 550px;
+    margin: auto;
+   border-radius: 10px;
+}
+
+.GE-header{
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    background-color: cyan;
+    border: 1px solid cyan;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.GE-body{
+    margin-top:0;
+    height:500px;
+  padding: 10px;
+
+}

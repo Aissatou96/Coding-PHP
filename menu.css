@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+/*Menu déroulant*/
+html{
+    height: 100%;
+	color: white;
+}
+body{
+    font-family: 'Source code pro', Verdana, Calibri, serif;
+    margin:0px;
+    padding:0px;
+    color: #333;
+    text-align: justify;
+    height: 100%;
+    background-color: RGB(236,237,237);
+}
+
+/******** MENU ********/
+nav{
+    font-family: 'Century Gothic', 'Source code pro', Verdana, serif;
+    width: 600px;
+    background-color: #000000;
+    
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav li{
+    list-style-type: none;
+    text-align: center;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav > ul > li > a{
+    padding: 15px 15px;
+    color: #FFFFFF;
+	
+}
+
+.menu-grp1{
+    text-align: center;
+}
+
+.menu-grp2{
+    text-align: center;
+}
+
+.menu-grp3{
+    text-align: center;
+}
+
+.menu-contact{
+    text-align: center;
+}
+.submenu{
+    display: none; 
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu li{
+    border-bottom : 1px solid #CCC;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color:#222538;
+    width: 270px;
+}
+nav > ul > li:hover a{
+    padding: 15px 20px 20px 20px;
+}
+
+.menu-grp3:hover{
+    border-top: 5px solid #00FFFF;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-grp1:hover{
+    border-top: 5px solid #FF002D;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-grp2:hover{
+    border-top: 5px solid #DEB887;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-grp4:hover{
+    border-top: 5px solid #e79;
+    background-color: RGBa(220, 220, 220, 0.15);
+}
+.menu-grp5:hover{
+    border-top: 5px solid #393;
+    background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-grp3 .submenu{
+    background-color: #00FFFF;
+}
+.menu-grp2 .submenu{
+    background-color: #deb837;
+}
+.menu-grp1 .submenu{
+    background-color: #FF002D;
+}
+.menu-grp4 .submenu{
+    background-color: #e79;
+}
+.menu-grp5 .submenu{
+    background-color: #393;
+}
+h1{
+    text-align: center;
+}
+
+
